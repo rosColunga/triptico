@@ -1,0 +1,42 @@
+/* Title y Footer del tríptico resaltados*/
+.yellow-mark {
+  border: 1px solid black;
+  background-color: #FFC107;
+  text-align: center;
+  padding:5px;
+  margin: 0;
+}
+
+/* Características grupales de las celdas*/
+.cell {
+  border: 1px solid black;
+  display: inline-block;
+  width: 32%;
+  height: 90%;
+  display: table-cell;
+}
+
+/* Inician características individuales de las celdas*/
+.cell > h3, h2 {
+  text-align: center;
+}
+
+.cell > img {
+  margin: 20px auto;
+  display: block;
+}
+
+.cell > p {
+  margin: 20px 25px;
+}
+
+/* Características del tamaño de imágenes*/
+img {
+  width: 250px;
+  height: 300px;
+}
+
+/* Ocultando visibilidad de imagen en celda central*/
+.image-space {
+  visibility: hidden;
+}
